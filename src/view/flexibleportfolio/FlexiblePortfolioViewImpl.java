@@ -36,7 +36,8 @@ public class FlexiblePortfolioViewImpl extends PortfolioViewImpl implements Flex
             + "5. Get total value of a portfolio for a date\n"
             + "6. Get Cost Basis of a portfolio for a date\n"
             + "7. Get a portfolio's performance graph\n"
-            + "8. Exit\n"
+            + "8. Rebalance portfolio\n"
+            + "9. Exit\n"
             + "\n(Please press 0 at any time to return to main menu)\n"
             + "-------------------------------\n\n";
     this.out.append(menu);

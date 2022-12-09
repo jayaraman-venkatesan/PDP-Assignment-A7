@@ -77,11 +77,11 @@ public class FlexiblePortfolioControllerImpl implements FlexiblePortfolioControl
           cmd.goCommand(scan);
           break;
         case "8":
-          return;
-        case "9":
           cmd = new RebalancePortfolio(fpList, view);
           cmd.goCommand(scan);
           break;
+        case "9":
+          return;
         default:
           view.invalidChoiceMessage();
       }
